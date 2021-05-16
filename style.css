@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    flex-direction: column;
+    background: url('background.jpg');
+    background-size: 100% 700px , cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    font-family: 'Amatic SC', cursive;
+    margin: 40px 50px;
+}
+
+.control{
+    width: 60%;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    margin: 0px 5px;
+    border: 0px;
+    outline: none;
+    background: transparent;
+}
+.btn .fa-play{
+    color: #28a745;
+}
+.btn .fa-stop{
+    color: #fe3454;
+}
+.btn .fa-angle-double-left{
+    color: #777;
+}
+.btn .fa-angle-double-right{
+    color: #777;
+}
+.fa-outdent{
+    color: #777;
+}
+.control .fa-pause{
+    color: #fff;
+    background :transparent;
+    outline: none;
+}
+span{
+    margin: 0px 3px;
+    font-weight: bold;
+}
+.list{
+    font-family: inherit;
+    font-size: 18px;
+    border: 1px solid #777;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    visibility: hidden;
+    
+
+}
+.list li{
+    cursor: pointer;
+    color: rgba(0,0,0,0.8);
+}
+.list li:hover{
+    color: blue;
+}
+.blue{
+    color: blue;
+}

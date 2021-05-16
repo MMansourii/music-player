@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
+    crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href='../progress.css'>
+    <title>Music Player</title>
+</head>
+<body>
+    <h1>Music Player</h1>
+    <audio class="audio" id="audio">
+        <source src="audio1.mp3" type="audio/mp3" class="tracks">
+    </audio>
+    <div class="control">
+        <button class="btn" id="play">
+            <i class="fa fa-play fa2x"></i>
+        </button>
+        <button class="btn" id="back">
+            <i class="fa fa-angle-double-left"></i>
+        </button>
+        <button class="btn" id="next">
+            <i class="fa fa-angle-double-right"></i>
+        </button>
+        <button class="btn" id="stop">
+            <i class="fa fa-stop fa2x"></i>
+        </button>
+        <input 
+        type="range" 
+        min="0" 
+        max="100" 
+        step="0.3" 
+        value="0"
+        id="progress">
+        <span id="time">00:00</span>
+        <button class="btn" id="lst">
+            <i class="fa fa-outdent"></i>
+        </button>
+        <ol class="list">
+            <li class="lst-play1">Ringer</li>
+            <li class="lst-play2">Venom</li>
+            <li class="lst-play3">NotAlike</li>
+        </ol>
+    
+    </div>
+
+
+  <script src="script.js"></script>  
+</body>
+</html>
